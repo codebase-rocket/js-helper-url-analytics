@@ -1,0 +1,33 @@
+{
+  "name": "@codebase-rocket/js-helper-url-analytics",
+  "description": "Boilerplate library. Contains Url Analytics related functions.",
+  "version": "1.0.0",
+  "main": "url_analytics.js",
+  "keywords": [],
+  "private": false,
+  "license": "Private",
+  "author": {
+    "name": "Prafful"
+  },
+  "contributors": [
+    {
+      "name": "Shivanshu Jindal"
+    },
+    {
+      "name": "Vikram Singh Koshyari"
+    }
+  ],
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "ua-parser-js": "^1.0.2"
+  },
+  "devDependencies": {
+    "js-helper-utils": "npm:@codebase-rocket/js-helper-utils@^1.0.0",
+    "js-helper-debug": "npm:@codebase-rocket/js-helper-debug@^1.0.0",
+    "js-helper-instance": "npm:@codebase-rocket/js-helper-instance@^1.0.0",
+    "js-helper-aws-dynamodb": "npm:@codebase-rocket/js-helper-aws-dynamodb@^1.0.0"
+  }
+}
